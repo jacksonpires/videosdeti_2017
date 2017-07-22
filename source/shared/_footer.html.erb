@@ -1,0 +1,132 @@
+<footer class="site-footer">
+  <div class="footer-top background-bg" style="background-image: url(images/footer.jpg)">
+    <div class="overlay">
+      <div class="section-padding">
+        <div class="container">
+
+          <div class="row">
+            <div class="footer-widgets">
+              <div class="col-md-4 col-sm-4">
+                <div class="widget widget_about">
+                  <div class="widget-details">
+                    <img class="footer-logo" src="images/logo 3.png" alt="Logo" width="200px">
+                    <p>
+                      O projeto Vídeos de TI tem o intuito de ajudar pessoas que querem entrar no fascinante mundo da tecnologia, mais espeficiamente na área de programação.
+                    </p>
+
+                    <div class="footer-social">
+                      <a href="https://www.facebook.com/jackson.pires">
+                        <i class="fa fa-facebook"></i>
+                      </a>
+                      <a href="https://www.instagram.com/jackson_pires/">
+                        <i class="fa fa-instagram"></i>
+                      </a>
+                      <a href="https://www.youtube.com/user/jacksonpiresjr/playlists">
+                        <i class="fa fa-youtube"></i>
+                      </a>
+                      <a href="https://github.com/jacksonpires">
+                        <i class="fa fa-github"></i>
+                      </a>
+                      <a href="https://www.linkedin.com/in/jackson-pires-a0832b14/">
+                        <i class="fa fa-linkedin-square"></i>
+                      </a>
+                      <a href="https://about.me/jacksonpires/">
+                        <i class="fa fa-user"></i>
+                      </a>
+                      <a id="gmail" onclick="copyToClipboard('gmail')" style="    cursor: copy;" data-toggle="tooltip" data-placement="right" title="jackson.pires@gmail.com">
+                        <i class="fa fa-envelope"></i>
+                      </a>
+                      <div id="snackbar">Copiado! <i class='fa fa-clipboard'></i></div>
+                    </div>
+                  </div><!-- /.widget-details -->
+                </div><!-- /.widget -->
+              </div>
+
+              <div class="col-md-4 col-sm-4">
+                <div class="widget widget_popular_posts">
+                  <h3 class="widget-title">Sobre o professor</h3><!-- /.widget-title -->
+
+                  <div class="widget-details">
+
+                    <article class="post type-post media">
+                      <div class="entry-thumbnail media-left">
+                        <img src="https://avatars3.githubusercontent.com/u/5025?v=3&s=400" alt="Jackson Pires Profile Photo">
+                      </div><!-- /.entry-thumbnail -->
+
+                      <div class="entry-content media-body">
+
+                        <h3 class="entry-title" style="color: #b0bec5;">
+                          Formação
+                        </h3><!-- /.entry-title -->
+
+                        <p>Eng. de Software - UFLA</p>
+                      </div><!-- /.entry-content -->
+                    </article><!-- /.post -->
+
+                  </div><!-- /.widget-details -->
+                </div><!-- /.widget -->
+              </div>
+
+              <div class="col-md-4 col-sm-4">
+                <div class="widget widget_tags">
+                  <h3 class="widget-title">Faça sua doação!</h3><!-- /.widget-title -->
+
+                  <div class="widget-details">
+                    <p>Gostou dos vídeos e quer ajudar o projeto? Faça uma doação!</p> <br>
+                    <div class="outer">
+                      <div class="inner">
+                        <form action="https://pagseguro.uol.com.br/checkout/v2/donation.html" method="post">
+                          <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+                          <input type="hidden" name="currency" value="BRL" />
+                          <input type="hidden" name="receiverEmail" value="jackson.pires@gmail.com" />
+                          <input type="image" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/doacoes/184x42-doar-cinza-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+                        </form>
+                      </div>
+                    </div>
+                  </div><!-- /.widget-details -->
+                </div><!-- /.widget -->
+              </div>
+
+            </div>
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </div><!-- /.section-padding -->
+    </div><!-- /.overlay -->
+  </div><!-- /.footer-top -->
+
+  <!-- <div class="footer-bottom">
+    <div class="padding">
+      <div class="container">
+        <div class="copyright text-center">
+          © <a href="demos.jeweltheme.com/videostories">VIDEOSTORIES</a> 2017 | Develpoed With Love by <a href="https://jeweltheme.com">Jewel Theme</a>
+          Designed by <a href="#">bigpsfan</a>
+        </div>
+      </div>
+    </div>
+  </div> -->
+</footer><!-- /.footer -->
+
+
+<script>
+  $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+  });
+
+  function copyToClipboard(elementId) {
+    var aux = document.createElement("input");
+    aux.setAttribute("value", document.getElementById(elementId).getAttribute('data-original-title'));
+    document.body.appendChild(aux);
+    aux.select();
+    document.execCommand("copy");
+    document.body.removeChild(aux);
+
+    // Get the snackbar DIV
+    var x = document.getElementById("snackbar")
+
+    // Add the "show" class to DIV
+    x.className = "show";
+
+    // After 3 seconds, remove the show class from DIV
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+  }
+</script>

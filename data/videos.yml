@@ -1,0 +1,142 @@
+courses:
+  - title: Iniciando com Ruby e Orientação a Objetos
+    sub_title: Aprenda de vez Orientação a Objetos com Ruby!
+    logo_file: poo-ruby-cover.png
+    price: Com certificado
+    category: Linguagem Ruby
+    level: iniciantes
+    html_page: curso-poo-ruby.html
+    html_course: http://bit.ly/poo-ruby
+    video_embedded: not
+    description: >
+      O curso visa mostrar aos alunos os primeiros passos com Ruby bem como conhecer e trabalhar com Programação Orientada a Objetos. O mesmo está dividido em 3 grandes módulos que facilitarão a explanação e o aprendizado por parte do aluno. Pretende-se ao final do curso permitir que o aluno conheça as bases do Ruby e da Orientação a Objetos aplicadas à linguagem em questão.
+
+  - title: Desenvolvendo RESTful APIs com Ruby on Rails
+    sub_title: Aprenda a criar uma aplicação completa com Ruby on Rails API-only
+    logo_file: ror-api-cover.png
+    price: Com certificado
+    category: Ruby on Rails API Only
+    level: intermediário/avançado
+    html_page: curso-ror-api.html
+    html_course: http://bit.ly/curso-ror-api
+    video_embedded: not
+    description: >
+      O curso visa mostrar aos alunos como construir aplicações REST/RESTful usando o framework Ruby on Rails API-only. Dentre os assuntos abordados veremos, o funcionamento dos verbos/métodos HTTP, o uso do Render JSON nativo do Rails, a gem Active Model Serializers, Caching, Versionamento, CORS, Authenticação, TDD, dentre outras coisas.
+
+  - title: Entendendo e documentando RESTful APIs
+    sub_title: Entenda de uma vez por todas RESTful  APIs
+    logo_file: restful-cover.jpg
+    price: Com certificado
+    category: RESTful APIs
+    level: todos os níveis
+    html_page: restful-apis.html
+    html_course: http://bit.ly/restful-apis
+    video_embedded: not
+    description: >
+      O curso visa mostrar aos alunos os conceitos sobre  RESTful APIs, bem como documentá-lo no intuito de facilitar a criação de APIs RESTful em qualquer linguagem de programação. O mesmo está dividido em 2 módulos, onde o primeiros falaremos sobre todos os conceitos que permeiam as RESTful APIs e o segundo faremos o uso do framework Swagger para documentar uma API.
+
+  - title: Orientação a Objetos com Java
+    sub_title: Aprenda o básico
+    logo_file: poo-java-cover.png
+    price: Com certificado
+    category: Java
+    level: iniciantes
+    html_page: poo-java.html
+    html_course: https://bit.ly/poo-java
+    video_embedded: not
+    description: >
+      O curso visa mostrar aos alunos como trabalhar com Orientação a Objetos utilizando o Java, o mesmo está dividido em 3 módulos que mostrarão detalhadamente cada uma das etapas enfrentadas por quem está iniciando no desenvolvimento Orientado a Objetos. No primeiro módulo será mostrada a história do Java bem como os conceitos iniciais da Programação Orientada a Objetos, no segundo módulo vamos instalar o Java e a IDE Eclipse nos três sistemas operacionais (Windows, Linux e Mac), e por fim, no terceiro módulo, falaremos sobre alguns assuntos que permeiam o Java e a Orientação a Objetos como pacotes, arrays, associações e herança.
+
+  - title: Ruby on Rails - Curso Completo
+    sub_title: Aprenda do básico ao avançado
+    logo_file: rails-completo-cover.png
+    price: Com certificado
+    category: Ruby on Rails
+    level: todos os níveis
+    html_page: curso-ror.html
+    html_course: https://bit.ly/curso-ror
+    video_embedded: not
+    description: >
+      O curso visa mostrar aos alunos como construir aplicações usando o framework Ruby on Rails, o mesmo está dividido em 5 módulos que mostrarão detalhadamente cada uma das etapas enfrentadas por quem está iniciando nesse mundo de desenvolvimento Web com Rails. No primeiro módulo mostraremos a parte básica do Ruby on Rails, no segundo módulo configuraremos um novo ambiente de desenvolvimento, no terceiro criaremos uma aplicação completa, no quarto módulo configuraremos um VPS e por fim, no quinto módulo mostraremos assuntos que não foram abordados nos módulos anteriores.
+
+  - title: Ruby on Rails para iniciantes
+    sub_title: Aprenda o básico
+    logo_file: rails-cover.png
+    price: Grátis
+    category: Ruby on Rails
+    level: iniciantes
+    html_page: rails.html
+    video_embedded: >
+      <iframe width="100%" height="600"
+        src="https://www.youtube.com/embed/videoseries?list=PLe3LRfCs4go-mkvHRMSXEOG-HDbzesyaP" frameborder="0" allowfullscreen>
+      </iframe>
+    description: >
+      Ruby on Rails é um famoso framework para desenvolvimento de aplicações Web. Esse mini-curso visa mostrar de forma introdutória como dar os primeiros passos com essa maravilhosa ferramenta.
+
+  - title: Conhecendo e Usando o Vagrant
+    sub_title: Aprenda o básico
+    logo_file: vagrant-cover.jpg
+    price: Grátis
+    category: Vagrant
+    level: iniciantes
+    html_page: vagrant.html
+    video_embedded: >
+      <iframe width="100%" height="600"
+        src="https://www.youtube.com/embed/videoseries?list=PLmSWX0ePcw4j6xaMvvTuYI0BgKadati5L" frameborder="0" allowfullscreen>
+      </iframe>
+    description: >
+      Atualmente, muitos desenvolvedores freelance ou mesmo em empresas, trabalham em muitos projetos, muitas vezes ao mesmo tempo. Sendo assim, é necessário manter um ambiente computacional que atenda a cada um dos projetos trabalhados. O Vagrant ajuda o desenvolvedor a manter diversos ambientes computacionais através da virtualização, permitindo que se possa ter vários ambientes isolados, tudo isso de forma rápida e prática.
+
+  - title: Conhecendo e Usando o VirtualBox
+    sub_title: Aprenda o básico
+    logo_file: virtualbox-cover.jpg
+    price: Grátis
+    category: VirtualBox
+    level: iniciantes
+    html_page: virtualbox.html
+    video_embedded: >
+      <iframe width="100%" height="600"
+        src="https://www.youtube.com/embed/videoseries?list=PLmSWX0ePcw4iYPxSoMx4Fp56SGXfluPCD" frameborder="0" allowfullscreen>
+      </iframe>
+    description: >
+      Aprendendo a usar o VirtualBox, você conseguirá instalar/virtualizar vários sistemas operacionais em um único computador/notebook.
+
+  - title: Banco de Dados e ANSI SQL para iniciantes
+    sub_title: Aprenda o básico
+    logo_file: sql-cover.jpg
+    price: Com certificado
+    category: Banco de dados e SQL
+    level: iniciantes
+    html_page: bd-ansisql.html
+    html_course: http://bit.ly/bd-ansisql
+    video_embedded: not
+    description: >
+      O curso visa mostrar aos alunos os conceitos sobre Banco de Dados e ANSI SQL a fim de permitir criação, pesquisas e manipulação de dados armazenados nos mais diversos tipos de SGDB's. O mesmo está dividido em 4 módulos que facilitarão a explanação e o aprendizado por parte do aluno.
+
+  - title: Conhecendo e Usando o Ubuntu Linux
+    sub_title: Aprenda o básico
+    logo_file: linux-cover.png
+    price: Grátis
+    category: Ubuntu Linux
+    level: iniciantes
+    html_page: linux.html
+    video_embedded: >
+      <iframe width="100%" height="600"
+        src="https://www.youtube.com/embed/videoseries?list=PLmSWX0ePcw4iMR1nTLXmsamnvOnnMNCNO" frameborder="0" allowfullscreen>
+      </iframe>
+    description: >
+      Se você está iniciando na área de Ti, com certeza precisará conhecer os conceitos básicos do Linux, então é chegada a hora, comece agora mesmo a entrar no mundo open-source e a desvendar os mistérios do Ubuntu Linux.
+
+  - title: Princípios do MS-DOS
+    sub_title: Aprenda o básico
+    logo_file: msdos-cover.jpg
+    price: Grátis
+    category: MS-DOS
+    level: iniciantes
+    html_page: msdos.html
+    video_embedded: >
+      <iframe width="100%" height="600"
+        src="https://www.youtube.com/embed/videoseries?list=PLmSWX0ePcw4gluymiLUqE9pULhdrVqNc8" frameborder="0" allowfullscreen>
+      </iframe>
+    description: >
+      Se você pretende conhecer um pouco mais sobre o Sistema Operacional Windows ou ainda, se pretende aprender a programar, é essencial que saiba o básico do famoso MS-DOS.

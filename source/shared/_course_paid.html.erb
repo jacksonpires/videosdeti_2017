@@ -1,0 +1,135 @@
+<section class="blog-posts">
+  <div class="section-padding" style="padding-bottom: 0">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <article class="post type-post format-video">
+
+            <div class="entry-thumbnail">
+              <%= image_tag course.logo_file %>
+              <% link_to  course.html_course, class: 'iframe' do %>
+                <i class="fa fa-play"></i>
+              <% end %>
+            </div><!-- /.entry-thumbnail -->
+
+            <br><br>
+
+            <div class="entry-content">
+              <h2 class="entry-title">
+                <%= course.title %>
+              </h2><!-- /.entry-title -->
+
+              <div class="entry-meta">
+                <span>
+                  <i class="fa fa-usd"></i> <%= course.price %>
+                </span>
+                <span class="category tag">
+                  <i class="fa fa-code"></i> <%= course.category %>
+                </span>
+                <span>
+                  <i class="fa fa-bar-chart"></i> <%= course.level %>
+                </span>
+              </div><!-- /.entry-meta -->
+
+              <hr style="border-top-color: #cfd8dc;">
+
+              <div class="col-sm-8">
+                <p>
+                  <b>
+                    <%= course.sub_title %>
+                  </b>
+                </p>
+
+                <p>
+                  <%= course.description %>
+                </p>
+              </div>
+            </div><!-- /.entry-content -->
+
+            <div class="col-sm-4" style="margin-top: 15px">
+              <div class="widget widget_social">
+                <h3 class="widget-title"><span class="first-word">Cursos</span> Pagos</h3><!-- /.widget-title -->
+                <div class="widget-details">
+                  <ul>
+                    <li>
+                      <a class="rss" href="<%= course.html_course %>">
+                        <%= image_tag "http://growth-blog.s3.amazonaws.com/2015/05/Udemy.png", width: '30px' %>
+                        <span style="padding: 0 5px;">|</span>
+                        Acesse através da plataforma Udemy.com
+                      </a>
+                    </li>
+                  </ul>
+                </div><!-- /.widget-details -->
+              </div>
+            </div>
+
+          </article><!-- /.post -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="blog-posts video-post">
+  <div class="section-padding" style="padding-top: 40px">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+
+          <h2 class="section-title">Cursos disponíveis</h2>
+
+          <div class="related-videos-slider owl-carousel owl-theme">
+
+            <% data.videos.courses.each do |course| %>
+
+              <div class="item">
+                <article class="post type-post">
+
+                  <div class="entry-thumbnail">
+
+                    <%= image_tag "#{course.logo_file}" %>
+
+                    <% link_to "#{course.html_page}", class: 'iframe' do %>
+                      <span class="play-video">
+                        <i class="fa fa-play-circle-o"></i>
+                      </span>
+                    <% end %>
+
+                  </div><!-- /.entry-thumbnail -->
+
+                  <div class="entry-content">
+
+                    <h2 class="entry-title">
+                      <%= link_to "#{course.title}", "#{course.html_page}" %>
+                    </h2><!-- /.entry-title -->
+
+                    <div class="entry-meta">
+                      <span class="author">
+                        <%= course.sub_title %>
+                      </span><!-- /.author -->
+                      <span>
+                        <i class="fa fa-usd"></i> <%= course.price %>
+                      </span>
+                      <span>
+                        <i class="fa fa-code"></i> <%= course.category %>
+                      </span>
+                      <span>
+                        <i class="fa fa-bar-chart"></i> <%= course.level %>
+                      </span>
+                    </div><!-- /.entry-meta -->
+
+                  </div><!-- /.entry-content -->
+
+                </article><!-- /.type-post -->
+              </div><!-- /.item -->
+
+            <% end %>
+
+          </div><!-- /.related-videos-slider -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

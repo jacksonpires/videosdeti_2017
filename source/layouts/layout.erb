@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Cursos sobre assuntos de tecnologia da informação e desenvolvimento de software.">
+
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "Vídeos de Ti" %></title>
+
+
+    <%= stylesheet_link_tag "style", "css", "header", "responsive", "themes", "owl.carousel", "bootstrap.min", "animate.min", "font-awesome.min" %>
+    <%= javascript_include_tag "jquery-1.6.2.min", "ga", "modernizr.custom", "plugins", "main", "bootstrap.min" %>
+    <%#= favicon_tag 'images/favicon.jpg' %>
+  </head>
+
+  <body cz-shortcut-listen="true" class="<%= page_classes %>">
+    <%= partial "shared/header" %>
+    <%= yield %>
+    <%= partial "shared/footer" %>
+  </body>
+</html>

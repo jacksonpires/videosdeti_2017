@@ -1,0 +1,104 @@
+<section class="blog-posts video-post">
+  <div class="section-padding">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-sm-12">
+          <article class="post type-post format-standard">
+            <div class="entry-thumbnail">
+              <%= course.video_embedded %>
+            </div><!-- /.entry-thumbnail -->
+
+            <br><br>
+
+            <div class="entry-content">
+
+              <h2 class="entry-title">
+                <%= course.title %>
+              </h2><!-- /.entry-title -->
+
+              <div class="entry-meta">
+                <span>
+                  <i class="fa fa-usd"></i> <%= course.price %>
+                </span>
+                <span class="category tag">
+                  <i class="fa fa-code"></i> <%= course.category %>
+                </span>
+                <span>
+                  <i class="fa fa-bar-chart"></i> <%= course.level %>
+                </span>
+              </div><!-- /.entry-meta -->
+
+              <hr style="border-top-color: #cfd8dc;">
+
+              <p>
+                <b>
+                  <%= course.sub_title %>
+                </b>
+              </p>
+
+              <p>
+                <%= course.description %>
+              </p>
+
+            </div><!-- /.entry-content -->
+          </article>
+
+
+          <h2 class="section-title">Cursos disponíveis</h2>
+
+          <div class="related-videos-slider owl-carousel owl-theme">
+
+            <% data.videos.courses.each do |course| %>
+
+              <div class="item">
+                <article class="post type-post">
+
+                  <div class="entry-thumbnail">
+
+                    <%= image_tag "#{course.logo_file}" %>
+
+                    <% link_to "#{course.html_page}", class: 'iframe' do %>
+                      <span class="play-video">
+                        <i class="fa fa-play-circle-o"></i>
+                      </span>
+                    <% end %>
+
+                  </div><!-- /.entry-thumbnail -->
+
+                  <div class="entry-content">
+
+                    <h2 class="entry-title">
+                      <%= link_to "#{course.title}", "#{course.html_page}" %>
+                    </h2><!-- /.entry-title -->
+
+                    <div class="entry-meta">
+                      <span class="author">
+                        <%= course.sub_title %>
+                      </span><!-- /.author -->
+                      <span>
+                        <i class="fa fa-usd"></i> <%= course.price %>
+                      </span>
+                      <span>
+                        <i class="fa fa-code"></i> <%= course.category %>
+                      </span>
+                      <span>
+                        <i class="fa fa-bar-chart"></i> <%= course.level %>
+                      </span>
+                    </div><!-- /.entry-meta -->
+
+                  </div><!-- /.entry-content -->
+
+                </article><!-- /.type-post -->
+              </div><!-- /.item -->
+
+            <% end %>
+
+          </div><!-- /.related-videos-slider -->
+
+        </div>
+
+      </div><!-- /.row -->
+    </div><!-- /.container -->
+  </div><!-- /.section-padding -->
+</section><!-- /.video-post -->

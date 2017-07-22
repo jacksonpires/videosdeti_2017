@@ -1,0 +1,52 @@
+<section class="latest-posts two-column">
+  <div class="section-padding">
+    <div class="container">
+      <div class="row">
+        <h2 class="section-title">Cursos Disponíveis</h2><!-- /.section-title -->
+
+        <% data.videos.courses.take(6).each do |course| %>
+          <div class="col-sm-6">
+            <article class="post type-post">
+
+              <div class="entry-thumbnail">
+                <%#= image_tag "#{course.logo_file}", width: "300", height: "180" %>
+                <%= image_tag "#{course.logo_file}" %>
+                <% link_to "#{course.html_page}", class: 'iframe' do %>
+                  <span class="play-video">
+                    <i class="fa fa-play-circle-o"></i>
+                  </span>
+                <% end %>
+              </div><!-- /.entry-thumbnail -->
+
+              <div class="entry-content">
+                <h2 class="entry-title">
+                  <%= link_to "#{course.title}", "#{course.html_page}" %>
+                </h2><!-- /.entry-title -->
+                <div class="entry-meta">
+                  <span class="author">
+                    <%= course.sub_title %>
+                  </span><!-- /.author -->
+                  <span>
+                    <i class="fa fa-usd"></i> <%= course.price %>
+                  </span>
+                  <span>
+                    <i class="fa fa-code"></i> <%= course.category %>
+                  </span>
+                  <span>
+                    <i class="fa fa-bar-chart"></i> <%= course.level %>
+                  </span>
+                </div><!-- /.entry-meta -->
+              </div><!-- /.entry-content -->
+
+            </article><!-- /.post -->
+          </div>
+        <% end %>
+
+        <div class="btn-container text-center clearfix">
+          <a href="/cursos.html" class="btn read-more">Ver mais</a>
+        </div><!-- /.btn-container -->
+
+      </div>
+    </div><!-- /.container -->
+  </div><!-- /.section-padding -->
+</section><!-- /.video-content -->
