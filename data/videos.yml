@@ -25,7 +25,7 @@ courses:
 
   - title: Entendendo e documentando RESTful APIs
     sub_title: Entenda de uma vez por todas RESTful  APIs
-    logo_file: restful-cover.jpg
+    logo_file: restful-cover.png
     price: Com certificado
     category: RESTful APIs
     level: todos os níveis
@@ -103,7 +103,7 @@ courses:
 
   - title: Banco de Dados e ANSI SQL para iniciantes
     sub_title: Aprenda o básico
-    logo_file: sql-cover.jpg
+    logo_file: sql-cover.png
     price: Com certificado
     category: Banco de dados e SQL
     level: iniciantes
