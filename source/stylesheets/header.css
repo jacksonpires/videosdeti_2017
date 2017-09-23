@@ -418,6 +418,10 @@ header .header-bottom .search-form:before {
     width: 100%;
     padding-left: 25px;
   }
+  header .header-bottom .navbar-default .navbar-nav
+  li.menu-item-has-children > a:before {
+      content: "" !important;
+  }
 }
 @media (max-width: 413px) {
 

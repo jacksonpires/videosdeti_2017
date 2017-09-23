@@ -46,6 +46,40 @@ However, delay the fade out process for 2.5 seconds */
     animation: fadein 0.5s, fadeout 0.5s 2.5s;
 }
 
+@media (max-width: 767px) {
+    .teacher {
+        width: 100%;
+        margin: 0 !important;
+        text-align: center;
+    }
+    footer .footer-top .section-padding {
+        padding: 105px 40px !important;
+    }
+    footer .footer-widgets .xs-mb {
+        margin-bottom: 30px;
+    }
+    footer .footer-logo {
+        float: left;
+        margin-right: 30px;
+    }
+    footer .footer-social {
+        margin-top: 25px !important;
+    }
+}
+@media (max-width: 425px) {
+    #snackbar {
+        visibility: hidden; /* Hidden by default. Visible on click */
+        min-width: 250px; /* Set a default minimum width */
+        margin-left: -125px; /* Divide value of min-width by 2 */
+        position: absolute; /* Sit on top of the screen */
+    }
+}
+@media (max-width: 386px) {
+    footer .footer-logo {
+        float: none;
+    }
+}
+
 /* Animations to fade the snackbar in and out */
 @-webkit-keyframes fadein {
     from {bottom: 0; opacity: 0;}
