@@ -6,10 +6,10 @@
 
           <div class="row">
             <div class="footer-widgets">
-              <div class="col-md-4 col-sm-4">
+              <div class="col-md-4 col-sm-4 xs-mb">
                 <div class="widget widget_about">
                   <div class="widget-details">
-                    <img class="footer-logo" src="images/logo 3.png" alt="Logo" width="200px">
+                    <img class="footer-logo" src="images/logo 3.3.png" alt="Logo" width="200px">
                     <p>
                       O projeto Vídeos de TI tem o intuito de ajudar pessoas que querem entrar no fascinante mundo da tecnologia, mais espeficiamente na área de programação.
                     </p>
@@ -33,7 +33,7 @@
                       <a href="https://about.me/jacksonpires/">
                         <i class="fa fa-user"></i>
                       </a>
-                      <a id="gmail" onclick="copyToClipboard('gmail')" style="    cursor: copy;" data-toggle="tooltip" data-placement="right" title="jackson.pires@gmail.com">
+                      <a id="gmail" onclick="copyToClipboard('gmail')" style="cursor: copy;" data-toggle="tooltip" data-placement="right" title="jackson.pires@gmail.com">
                         <i class="fa fa-envelope"></i>
                       </a>
                       <div id="snackbar">Copiado! <i class='fa fa-clipboard'></i></div>
@@ -42,7 +42,7 @@
                 </div><!-- /.widget -->
               </div>
 
-              <div class="col-md-4 col-sm-4">
+              <div class="col-md-4 col-sm-4 xs-mb">
                 <div class="widget widget_popular_posts">
                   <h3 class="widget-title">Sobre o professor</h3><!-- /.widget-title -->
 
@@ -109,6 +109,13 @@
 
 <script>
   $(document).ready(function(){
+    if(window.innerWidth <= 425) {
+      var div = $('#gmail')[0];
+      div.setAttribute('data-placement', 'bottom');
+    } else {
+      var div = $('#gmail')[0];
+      div.setAttribute('data-placement', 'right');
+    }
     $('[data-toggle="tooltip"]').tooltip();
   });
 
