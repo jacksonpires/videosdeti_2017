@@ -1,4 +1,16 @@
 courses:
+  - title: Fundamentos de Programação - Aprenda a programar do zero!
+    sub_title: Aprenda algoritmos com Fluxograma, Portugol e Linguagem C
+    logo_file: programacao-zero.png
+    price: Com certificado
+    category: Fluxograma, Portugol, Linguagem C
+    level: iniciante
+    html_page: curso-programacao-do-zero.html
+    html_course: http://bit.ly/programacao-do-zero
+    video_embedded: not
+    description: >
+      O curso visa mostrar aos alunos os fundamentos da programação, baseando o estudo em fluxogramas, uso do portugol e também a linguagem C. Dessa forma será possível dar o primeiro passo para quem deseja ser um desenvolvedor ou mesmo entender os princípios que regem a programação. Ao final, o aluno estará apto a escolher qualquer linguagem de programação para seguir em sua carreira.
+
   - title: TDD com Ruby on Rails, RSpec e Capybara - Curso Completo
     sub_title: Desenvolva aplicações guiada a testes com Ruby on Rails
     logo_file: tdd-rails-cover.png
