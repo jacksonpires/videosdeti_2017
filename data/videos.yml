@@ -6,7 +6,7 @@ courses:
     category: DevOps
     level: iniciante/intermediário
     html_page: curso-docker-rails.html
-    html_course: http://bit.ly/docker-rails
+    html_course: http://bit.ly/docker-ror-35
     video_embedded: not
     description: >
       O curso visa mostrar aos alunos como dar os primeiros passos com o Docker para seu uso tanto em ambiente de desenvolvimento como em produção. Serão abordados assuntos como: Conceitos iniciais do Docker, Dockerfile, Docker Hub, Docker Compose, Volumes, Networks, Portas, etc.
