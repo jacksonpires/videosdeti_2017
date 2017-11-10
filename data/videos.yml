@@ -1,15 +1,16 @@
 courses:
-  - title: Fundamentos de Programação - Aprenda a programar do zero!
-    sub_title: Aprenda algoritmos com Fluxograma, Portugol e Linguagem C
-    logo_file: programacao-zero.png
+  - title: Docker para desenvolvedores Ruby on Rails
+    sub_title: Use Docker no seu ambiente de desenvolvimento e produção com aplicações Ruby on Rails
+    logo_file: docker-rails-cover.png
     price: Com certificado
-    category: Fluxograma, Portugol, Linguagem C
-    level: iniciante
-    html_page: curso-programacao-do-zero.html
-    html_course: http://bit.ly/programacao-do-zero-30
+    category: DevOps
+    level: iniciante/intermediário
+    html_page: curso-docker-rails.html
+    html_course: http://bit.ly/docker-rails
     video_embedded: not
     description: >
-      O curso visa mostrar aos alunos os fundamentos da programação, baseando o estudo em fluxogramas, uso do portugol e também a linguagem C. Dessa forma será possível dar o primeiro passo para quem deseja ser um desenvolvedor ou mesmo entender os princípios que regem a programação. Ao final, o aluno estará apto a escolher qualquer linguagem de programação para seguir em sua carreira.
+      O curso visa mostrar aos alunos como dar os primeiros passos com o Docker para seu uso tanto em ambiente de desenvolvimento como em produção. Serão abordados assuntos como: Conceitos iniciais do Docker, Dockerfile, Docker Hub, Docker Compose, Volumes, Networks, Portas, etc.
+      É importante perceber que o curso NÃO abordará "Orquestração de Containers" , sendo assim, ferramentas como Swarm e Kubernetes não farão parte do escopo desse curso.
 
   - title: TDD com Ruby on Rails, RSpec e Capybara - Curso Completo
     sub_title: Desenvolva aplicações guiada a testes com Ruby on Rails
@@ -136,6 +137,18 @@ courses:
     video_embedded: not
     description: >
       O curso visa mostrar aos alunos os conceitos sobre Banco de Dados e ANSI SQL a fim de permitir criação, pesquisas e manipulação de dados armazenados nos mais diversos tipos de SGDB's. O mesmo está dividido em 4 módulos que facilitarão a explanação e o aprendizado por parte do aluno.
+
+  - title: Fundamentos de Programação - Aprenda a programar do zero!
+    sub_title: Aprenda algoritmos com Fluxograma, Portugol e Linguagem C
+    logo_file: programacao-zero.png
+    price: Com certificado
+    category: Fluxograma, Portugol, Linguagem C
+    level: iniciante
+    html_page: curso-programacao-do-zero.html
+    html_course: http://bit.ly/programacao-do-zero-30
+    video_embedded: not
+    description: >
+      O curso visa mostrar aos alunos os fundamentos da programação, baseando o estudo em fluxogramas, uso do portugol e também a linguagem C. Dessa forma será possível dar o primeiro passo para quem deseja ser um desenvolvedor ou mesmo entender os princípios que regem a programação. Ao final, o aluno estará apto a escolher qualquer linguagem de programação para seguir em sua carreira.
 
   - title: Conhecendo e Usando o Ubuntu Linux
     sub_title: Aprenda o básico
