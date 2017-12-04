@@ -3,10 +3,17 @@
     <div class="container">
       <div class="row" id="promotions">
         <% data.promotions.banners.each do |banner| %>
-          <% if banner.active %>
+          <% if banner.active? %>
             <%= link_to image_tag("#{banner.cover_file}", class: "img-responsive", style: "width: 100%;"), "#{banner.link}" %>
           <% end %>
         <% end %>
+        
+        <% data.promotions.banners_html.each do |banner| %>
+          <% if banner.active? %>
+            <%= link_to image_tag("#{banner.cover_file}", class: "img-responsive", style: "width: 100%;"), "#{banner.html_page}" %>
+          <% end %>
+        <% end %>
+
       </div>
       
       <div class="row">
@@ -17,7 +24,6 @@
             <article class="post type-post">
 
               <div class="entry-thumbnail">
-                <%#= image_tag "#{course.logo_file}", width: "300", height: "180" %>
                 <%= image_tag "#{course.logo_file}" %>
                 <% link_to "#{course.html_page}", class: 'iframe' do %>
                   <span class="play-video">

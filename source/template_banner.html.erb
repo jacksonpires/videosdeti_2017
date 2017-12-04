@@ -1,0 +1,56 @@
+<section class="blog-posts video-post">
+  <div class="section-padding">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-sm-12">
+          <article class="post type-post format-standard">
+            <div class="entry-thumbnail">
+              <%= link_to image_tag("#{banner.cover_file}", class: "img-responsive", style: "width: 100%;"), "#{banner.link}" %>
+            </div><!-- /.entry-thumbnail -->
+
+            <br><br>
+
+            <div class="entry-content">
+              <div class="col-sm-7">
+                <h2 class="entry-title">
+                  <%= banner.title %>
+                </h2><!-- /.entry-title -->
+  
+                <hr style="border-top-color: #cfd8dc;">
+  
+                <p style="font-size: 20px;">
+                  <%= banner.description %>
+                </p>
+              </div>
+
+            </div><!-- /.entry-content -->
+            
+           
+            <div class="col-sm-5" style="margin-top: 15px">
+              <div class="widget widget_social">
+                <h3 class="widget-title"><span class="first-word">Faça sua</span> escolha!</h3><!-- /.widget-title -->
+                <div class="widget-details">
+                  <ul>
+                    <% banner.promotions.each do |promotion| %>
+                      <li>
+                        <a class="rss" href="<%= promotion.url %>" style="font-size: 18px;">
+                          <%= "#{promotion.title}" %>
+                          <span style="padding: 0 5px;">|</span>
+                          <%= "#{promotion.price}" %> 
+                        </a>
+                      </li>
+                    <% end %>
+                  </ul>
+                </div><!-- /.widget-details -->
+              </div>
+            </div>
+    
+          </article>
+
+        </div>
+
+      </div><!-- /.row -->
+    </div><!-- /.container -->
+  </div><!-- /.section-padding -->
+</section><!-- /.video-post -->

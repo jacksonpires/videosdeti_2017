@@ -2,9 +2,42 @@ banners:
   - title: Bootcamp Super Full Stack - Turma 4
     cover_file: bootcamp4.png
     link: https://go.hotmart.com/W6395937I
-    active: true
+    active?: true
 
   - title: Promoção Black Friday 2016
     cover_file: blackfriday-16.png
     link: http://bit.ly/blackfriday-16
-    active: false
+    active?: false
+
+banners_html:
+  - title: Super combo de Natal 2017!
+    cover_file: combonatal2017.png
+    html_page: combo-natal-2017.html
+    description: O Natal está chegando, e para você já entrar no clima a Vídeos de TI resolveu te dar um super presente! Separamos 3 combos imperdíveis que só vão durar até o final do mês de dezembro. É só escolher ao lado e clicar! Após o pagamento você receberá um email no qual informará os cursos que quer. ;-)
+    promotions:
+        - title: 03 Cursos que você escolher
+          price: R$ 50,00
+          url: https://pag.ae/bdrK5V6
+        - title: 06 Cursos que você escolher
+          price: R$ 90,00
+          url: https://pag.ae/bcrK50k
+        - title: TODOS os 09 cursos!
+          price: R$ 120,00
+          url: https://pag.ae/bbrK54g
+    active?: true
+
+  - title: Prmoção Black Friday 2016
+    cover_file: blackfriday2016.png
+    html_page: blackfriday-2016.html
+    description: bla, bla bla!
+    promotions:
+        - title: 03 Cursos
+          price: R$ 50,00
+          url: bit.ly/combonatal2017-03
+        - title: 06 Cursos
+          price: R$ 50,00
+          url: bit.ly/combonatal2017-03
+        - title: 09 Cursos
+          price: R$ 50,00
+          url: bit.ly/combonatal2017-03
+    active?: false
