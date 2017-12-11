@@ -41,7 +41,7 @@ end
 data.promotions.banners_html.each do |banner|
   if banner.active?
     proxy "/#{banner.html_page}", "/template_banner.html",
-    :locals => { :banner => banner }, :ignore => true
+   :locals => { :banner => banner }, :ignore => true
   end
 end
 
