@@ -2,7 +2,7 @@ banners:
   - title: Bootcamp Super Full Stack - Turma 4
     cover_file: bannerbootcamp172.png
     link: https://go.hotmart.com/W6395937I
-    active?: true
+    active?: false
 
   - title: Promoção Black Friday 2016
     cover_file: blackfriday-16.png
