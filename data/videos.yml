@@ -1,4 +1,30 @@
 courses:
+  - title: Iniciando com Materialize CSS Framework
+    sub_title: Dê os primeiros passos rumo ao front-end responsivo e ao Material Design
+    logo_file: materialize-cover.png
+    price: Com certificado
+    category: Front-end
+    level: iniciante/intermediário
+    html_page: iniciando-com-materialize.html
+    html_course: https://www.udemy.com/iniciando-com-materialize/?couponCode=VIDEOSDETI
+    video_embedded: not
+    description: >
+      MaterializeCSS é um framework CSS que traz o conceito do material design adotado pelo Google de uma forma muito simples e minimalista.
+      Neste curso conheceremos o Framework Materialize CSS para desenvolvimento web front-end, baseada no Material Design do Google facilita a construção de aplicações web responsivas e com visual elegante.
+
+  - title: "Sass/SCSS: Curso Completo"
+    sub_title: Chega de CSS desorganizado! Elabore projetos organizados, rápidos e sem frustrações utilizando Sass
+    logo_file: sass-cover.png
+    price: Com certificado
+    category: Front-end
+    level: iniciante/intermediário
+    html_page: sass-curso-completo.html
+    html_course: https://www.udemy.com/sass-curso-completo/?couponCode=VIDEOSDETI
+    video_embedded: not
+    description: >
+      Aumente suas habilidades em design de páginas web com Sass/SCSS - o poderoso pré-processador CSS!
+      Este curso completo para o desenvolvimento de Sass/SCSS abrange tudo o que você precisa saber sobre esta incrível tecnologia.
+
   - title: Docker para desenvolvedores Ruby on Rails
     sub_title: Use Docker no seu ambiente de desenvolvimento e produção com aplicações Ruby on Rails
     logo_file: docker-rails-cover.png
