@@ -7,6 +7,7 @@ courses:
     level: iniciante/intermediário
     html_page: iniciando-com-materialize.html
     html_course: https://www.udemy.com/iniciando-com-materialize/?couponCode=VIDEOSDETI
+    teacher: Tássio Gonçalves
     video_embedded: not
     description: >
       MaterializeCSS é um framework CSS que traz o conceito do material design adotado pelo Google de uma forma muito simples e minimalista.
@@ -20,6 +21,7 @@ courses:
     level: iniciante/intermediário
     html_page: sass-curso-completo.html
     html_course: https://www.udemy.com/sass-curso-completo/?couponCode=VIDEOSDETI
+    teacher: Tássio Gonçalves
     video_embedded: not
     description: >
       Aumente suas habilidades em design de páginas web com Sass/SCSS - o poderoso pré-processador CSS!
@@ -33,6 +35,7 @@ courses:
     level: iniciante/intermediário
     html_page: curso-docker-rails.html
     html_course: http://bit.ly/docker-ror-35
+    teacher: Jackson Pires
     video_embedded: not
     description: >
       O curso visa mostrar aos alunos como dar os primeiros passos com o Docker para seu uso tanto em ambiente de desenvolvimento como em produção. Serão abordados assuntos como: Conceitos iniciais do Docker, Dockerfile, Docker Hub, Docker Compose, Volumes, Networks, Portas, etc.
@@ -46,6 +49,7 @@ courses:
     level: intermediário/avançado
     html_page: curso-tdd-rails.html
     html_course: http://bit.ly/tdd-rails
+    teacher: Jackson Pires
     video_embedded: not
     description: >
       O curso visa mostrar aos alunos como utilizar a técnicas de desenvolvimento de software guiado a testes (TDD) utilizando o Ruby on Rails em conjunto com as ferramentas RSpec e Capybara. O curso estará dividido em 7 módulos que facilitarão a o aprendizado do aluno, sendo o módulo 1 o básico que apresentará os conceitos de tudo que estudaremos no curso. O módulo 2 será específico do Rspec onde nos aprofundaremos nessa ferramenta. No módulo 3 conheceremos o FactoryGirl e o VCR que serão ferramentas importantíssimas para o dia a dia do desenvolvimento com TDD. No módulo 4 aprenderemos como testar Models e Controllers do Rails. No módulo 5 conheceremos o Capybara e veremos como fazer testes de Views usando essa ferramenta. No módulo 6 veremos como testar APIs, e por fim, no módulo 7, colocaremos em prática tudo que vimos e desenvolveremos uma pequena aplicação utilizando os conceitos aprendidos durante os módulos anteriores.
@@ -58,6 +62,7 @@ courses:
     level: iniciantes
     html_page: curso-poo-ruby.html
     html_course: http://bit.ly/poo-ruby
+    teacher: Jackson Pires
     video_embedded: not
     description: >
       O curso visa mostrar aos alunos os primeiros passos com Ruby bem como conhecer e trabalhar com Programação Orientada a Objetos. O mesmo está dividido em 3 grandes módulos que facilitarão a explanação e o aprendizado por parte do aluno. Pretende-se ao final do curso permitir que o aluno conheça as bases do Ruby e da Orientação a Objetos aplicadas à linguagem em questão.
@@ -70,6 +75,7 @@ courses:
     level: intermediário/avançado
     html_page: curso-ror-api.html
     html_course: http://bit.ly/curso-ror-api
+    teacher: Jackson Pires
     video_embedded: not
     description: >
       O curso visa mostrar aos alunos como construir aplicações REST/RESTful usando o framework Ruby on Rails API-only. Dentre os assuntos abordados veremos, o funcionamento dos verbos/métodos HTTP, o uso do Render JSON nativo do Rails, a gem Active Model Serializers, Caching, Versionamento, CORS, Authenticação, TDD, dentre outras coisas.
@@ -82,6 +88,7 @@ courses:
     level: todos os níveis
     html_page: restful-apis.html
     html_course: http://bit.ly/restful-apis
+    teacher: Jackson Pires
     video_embedded: not
     description: >
       O curso visa mostrar aos alunos os conceitos sobre  RESTful APIs, bem como documentá-lo no intuito de facilitar a criação de APIs RESTful em qualquer linguagem de programação. O mesmo está dividido em 2 módulos, onde o primeiros falaremos sobre todos os conceitos que permeiam as RESTful APIs e o segundo faremos o uso do framework Swagger para documentar uma API.
@@ -94,6 +101,7 @@ courses:
     level: iniciantes
     html_page: poo-java.html
     html_course: https://bit.ly/poo-java
+    teacher: Jackson Pires
     video_embedded: not
     description: >
       O curso visa mostrar aos alunos como trabalhar com Orientação a Objetos utilizando o Java, o mesmo está dividido em 3 módulos que mostrarão detalhadamente cada uma das etapas enfrentadas por quem está iniciando no desenvolvimento Orientado a Objetos. No primeiro módulo será mostrada a história do Java bem como os conceitos iniciais da Programação Orientada a Objetos, no segundo módulo vamos instalar o Java e a IDE Eclipse nos três sistemas operacionais (Windows, Linux e Mac), e por fim, no terceiro módulo, falaremos sobre alguns assuntos que permeiam o Java e a Orientação a Objetos como pacotes, arrays, associações e herança.
@@ -106,6 +114,7 @@ courses:
     level: todos os níveis
     html_page: curso-ror.html
     html_course: https://bit.ly/ror-curso
+    teacher: Jackson Pires
     video_embedded: not
     description: >
       O curso visa mostrar aos alunos como construir aplicações usando o framework Ruby on Rails, o mesmo está dividido em 5 módulos que mostrarão detalhadamente cada uma das etapas enfrentadas por quem está iniciando nesse mundo de desenvolvimento Web com Rails. No primeiro módulo mostraremos a parte básica do Ruby on Rails, no segundo módulo configuraremos um novo ambiente de desenvolvimento, no terceiro criaremos uma aplicação completa, no quarto módulo configuraremos um VPS e por fim, no quinto módulo mostraremos assuntos que não foram abordados nos módulos anteriores.
@@ -117,6 +126,7 @@ courses:
     category: Ruby on Rails
     level: iniciantes
     html_page: rails.html
+    teacher: Jackson Pires
     video_embedded: >
       <iframe width="100%" height="600"
         src="https://www.youtube.com/embed/videoseries?list=PLe3LRfCs4go-mkvHRMSXEOG-HDbzesyaP" frameborder="0" allowfullscreen>
@@ -131,6 +141,7 @@ courses:
     category: Vagrant
     level: iniciantes
     html_page: vagrant.html
+    teacher: Jackson Pires
     video_embedded: >
       <iframe width="100%" height="600"
         src="https://www.youtube.com/embed/videoseries?list=PLmSWX0ePcw4j6xaMvvTuYI0BgKadati5L" frameborder="0" allowfullscreen>
@@ -145,6 +156,7 @@ courses:
     category: VirtualBox
     level: iniciantes
     html_page: virtualbox.html
+    teacher: Jackson Pires
     video_embedded: >
       <iframe width="100%" height="600"
         src="https://www.youtube.com/embed/videoseries?list=PLmSWX0ePcw4iYPxSoMx4Fp56SGXfluPCD" frameborder="0" allowfullscreen>
@@ -160,6 +172,7 @@ courses:
     level: iniciantes
     html_page: bd-ansisql.html
     html_course: http://bit.ly/bd-ansisql
+    teacher: Jackson Pires
     video_embedded: not
     description: >
       O curso visa mostrar aos alunos os conceitos sobre Banco de Dados e ANSI SQL a fim de permitir criação, pesquisas e manipulação de dados armazenados nos mais diversos tipos de SGDB's. O mesmo está dividido em 4 módulos que facilitarão a explanação e o aprendizado por parte do aluno.
@@ -172,6 +185,7 @@ courses:
     level: iniciante
     html_page: curso-programacao-do-zero.html
     html_course: http://bit.ly/programacao-do-zero-30
+    teacher: Jackson Pires
     video_embedded: not
     description: >
       O curso visa mostrar aos alunos os fundamentos da programação, baseando o estudo em fluxogramas, uso do portugol e também a linguagem C. Dessa forma será possível dar o primeiro passo para quem deseja ser um desenvolvedor ou mesmo entender os princípios que regem a programação. Ao final, o aluno estará apto a escolher qualquer linguagem de programação para seguir em sua carreira.
@@ -183,6 +197,7 @@ courses:
     category: Ubuntu Linux
     level: iniciantes
     html_page: linux.html
+    teacher: Jackson Pires
     video_embedded: >
       <iframe width="100%" height="600"
         src="https://www.youtube.com/embed/videoseries?list=PLmSWX0ePcw4iMR1nTLXmsamnvOnnMNCNO" frameborder="0" allowfullscreen>
@@ -197,6 +212,7 @@ courses:
     category: MS-DOS
     level: iniciantes
     html_page: msdos.html
+    teacher: Jackson Pires
     video_embedded: >
       <iframe width="100%" height="600"
         src="https://www.youtube.com/embed/videoseries?list=PLmSWX0ePcw4gluymiLUqE9pULhdrVqNc8" frameborder="0" allowfullscreen>
