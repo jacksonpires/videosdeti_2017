@@ -11,14 +11,23 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "Vídeos de Ti" %></title>
 
-    <%= stylesheet_link_tag "customization", "style", "css", "header", "responsive", "themes", "owl.carousel", "bootstrap.min", "animate.min", "font-awesome.min" %>
-    <%= javascript_include_tag "jquery-1.6.2.min", "ga", "modernizr.custom", "plugins", "main", "bootstrap.min" %>
+    <%= stylesheet_link_tag "customization", "style", "css", "header", "responsive", "themes", "owl.carousel", "bootstrap.min", "animate.min", "font-awesome.min", "contact-button", "social-icons" %>
     <link rel="shortcut icon" href="images/favicon.png"/>
   </head>
 
   <body cz-shortcut-listen="true" class="<%= page_classes %>">
+    <nav class="social">
+      <ul>
+          <li><a href="http://www.videosdeti.com/twitter">Twitter <i class="fa fa-twitter"></i></a></li>
+          <li><a href="http://www.videosdeti.com/facebook">Facebook <i class="fa fa-facebook"></i></a></li>
+          <li><a href="http://www.videosdeti.com/instagram">Instagram <i class="fa fa-instagram"></i></a></li>
+          <li><a href="http://www.videosdeti.com/youtube">Youtube <i class="fa fa-youtube"></i></a></li>
+      </ul>
+    </nav>
+    
     <%= partial "shared/header" %>
     <%= yield %>
     <%= partial "shared/footer" %>
+    <%= javascript_include_tag "jquery-1.6.2.min", "ga", "modernizr.custom", "plugins", "main", "bootstrap.min" %>
   </body>
 </html>
