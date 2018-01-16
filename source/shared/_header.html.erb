@@ -42,25 +42,24 @@
                   <a href="http://videosdeti.com.br/blog">Blog</a>
                 </li>
 
-                <li class="menu-item">
-                  <a href="http://eepurl.com/dhALLX">Newsletter</a>
-                </li>
-                
                 <li class="menu-item menu-item-has-children <%= course_page_active %>">
                   <a href="/cursos.html">Cursos</a>
                   <ul class="sub-menu children">
+                    <li>
+                      <a href="/free_courses.html">
+                        Cursos GRÁTIS...
+                      </a>
+                    </li>
 
-                    <% data.videos.courses.take(5).each do |course| %>
-                      <li>
-                        <a href="<%= course.html_page %>">
-                          <%= course.title %>
-                        </a>
-                      </li>
-                    <% end %>
+                    <li>
+                    <a href="/paid_courses.html">
+                        Cursos COM CERTIFICADO...
+                      </a>
+                    </li>
 
                     <li>
                       <a href="/cursos.html">
-                        Ver mais...
+                        TODOS os cursos...
                       </a>
                     </li>
 
@@ -71,6 +70,16 @@
             </div><!-- /.navbar-collapse -->
 
             
+            <div id="menu" class="main-menu collapse navbar-collapse pull-right">
+
+              <ul class="nav navbar-nav">
+
+                <li class="menu-item">
+                  <a href="http://eepurl.com/dhALLX">Cadastre-se!</a>
+                </li>
+
+              </ul>
+            </div><!-- /.navbar-collapse -->
           </nav><!-- /.navbar -->
         </div><!-- /.col-sm-7 -->
 
