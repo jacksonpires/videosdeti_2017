@@ -46,16 +46,16 @@ banners_html:
     promotions:
         - title: Desenvolvedor Iniciante
           price: R$ 49,90
-          url: https://pag.ae/bktjB3x
+          url: https://pag.ae/bbtjVHv
         - title: Desenvolvedor Ruby
           price: R$ 49,90
-          url: https://pag.ae/bftjB3R
-        - title: Desenvolvedor Rails API
+          url: https://pag.ae/bktjVQb
+        - title: Desenvolvendo Rails API
           price: R$ 49,90
-          url: https://pag.ae/bgtjB4d
+          url: https://pag.ae/bjtjVT6
         - title: Desenvolvedor Front-end
           price: R$ 49,90
-          url: https://pag.ae/bdtjB4H
+          url: https://pag.ae/bftjVXH
     active?: true
     
   - title: Super combo de Natal 2017!
