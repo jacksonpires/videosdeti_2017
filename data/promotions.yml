@@ -10,6 +10,54 @@ banners:
     active?: false
 
 banners_html:
+  - title: Escolha sua trilha!
+    cover_file: banner_trilhas_2018_jan.png
+    html_page: trilhas-jan-2018.html
+    description: >
+        Para o ano de 2018 começar com tudo, nós da Vídeos de TI separamos 4 trilhas, cada uma com 3 cursos, todas elas com um preço super especial! Confira:<br/>
+        <br/>
+        <strong>Trilha Desenvolvedor Iniciante</strong><br/>
+          - Fundamentos de Programação - Aprenda a programar do zero!<br/>
+          - Banco de Dados e ANSI SQL para iniciantes<br/>
+          - Orientação a Objetos com Java<br/>
+        <br/>  
+        <strong>Trilha Desenvolvedor Ruby</strong><br/>
+          - Iniciando com Ruby e Orientação a Objetos<br/>
+          - Ruby on Rails - Curso Completo<br/>
+          - TDD com Ruby on Rails, RSpec e Capybara - Curso Completo<br/>
+        <br/>  
+        <strong>Trilha Desenvolvedor Rails API</strong><br/>
+          - Entendendo e documentando RESTful APIs<br/>
+          - Ruby on Rails - Curso Completo<br/>
+          - Desenvolvendo RESTful APIs com Ruby on Rails<br/>
+        <br/>  
+        <strong>Trilha Desenvolvedor Front-end</strong><br/>
+          - Fundamentos de Programação - Aprenda a programar do zero!<br/>
+          - Sass/SCSS: Curso Completo<br/>
+          - Iniciando com Materialize CSS Framework<br/>
+        <br/>
+        Caso nenhuma das trilhas te atenda, você ainda pode usar o cupom <strong>MID-JAN-18</strong> para obter automaticamente um desconto super especial em qualquer um dos cursos!<br/>
+        <br/>
+        <strong>ATENÇÃO!</strong><br/>
+        Todas as promoções são válidas até domingo (21/01/2018), então corre pra não perder essa oportunidade! ;-)
+        <br/><br/>
+        PS: Após concluir a compra cliando em um dos links ao lado, você receberá um email em até 24h com os vouchers de acesso aos cursos.
+
+    promotions:
+        - title: Desenvolvedor Iniciante
+          price: R$ 49,90
+          url: https://pag.ae/bktjB3x
+        - title: Desenvolvedor Ruby
+          price: R$ 49,90
+          url: https://pag.ae/bftjB3R
+        - title: Desenvolvedor Rails API
+          price: R$ 49,90
+          url: https://pag.ae/bgtjB4d
+        - title: Desenvolvedor Front-end
+          price: R$ 49,90
+          url: https://pag.ae/bdtjB4H
+    active?: true
+    
   - title: Super combo de Natal 2017!
     cover_file: combonatal2017.png
     html_page: combo-natal-2017.html
@@ -24,7 +72,7 @@ banners_html:
         - title: TODOS os 09 cursos!
           price: R$ 120,00
           url: https://pag.ae/bbrK54g
-    active?: true
+    active?: false
 
   - title: Prmoção Black Friday 2016
     cover_file: blackfriday2016.png
