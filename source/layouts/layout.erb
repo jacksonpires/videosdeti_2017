@@ -29,5 +29,15 @@
     <%= yield %>
     <%= partial "shared/footer" %>
     <%= javascript_include_tag "jquery-1.6.2.min", "ga", "modernizr.custom", "plugins", "main", "bootstrap.min" %>
+   
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115411662-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-115411662-1');
+    </script>
   </body>
 </html>
