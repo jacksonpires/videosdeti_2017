@@ -12,7 +12,7 @@ courses:
         src="https://www.youtube.com/embed/videoseries?list=PLmSWX0ePcw4h4Hf1nmrvIxJJ_2QjojhVC" frameborder="0" allowfullscreen>
       </iframe>
     description: >
-      Gerir versões e código-fonte software pode ser um trabalho árduo quando não se usa ferramentas para isso, no entanto, a dobradinha git e github trazem essa facilidade para o desenvolvedor. 
+      Gerir versões e código-fonte de software pode ser um trabalho árduo quando não se usa ferramentas para isso, no entanto, a dobradinha git e github trazem essa facilidade para o desenvolvedor. 
       Nesse minicurso você conhecerá tudo necessário para dar os primeiros passos no uso dessas ferramentas indispensáveis ao desenvolvedor moderno.
 
   - title: Iniciando com Materialize CSS Framework
