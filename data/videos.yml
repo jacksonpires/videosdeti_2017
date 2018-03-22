@@ -1,4 +1,20 @@
 courses:
+  - title: Git e Github - Primeiros Passos
+    sub_title: Dê os primeiros passos no entendimento do Git e Github
+    logo_file: git-github-cover.png
+    price: Grátis
+    category: Desenvolvedor
+    level: iniciante
+    html_page: git-github-primeiros-passos.html
+    teacher: Jackson Pires
+    video_embedded: >
+      <iframe width="100%" height="600"
+        src="https://www.youtube.com/embed/videoseries?list=PLmSWX0ePcw4h4Hf1nmrvIxJJ_2QjojhVC" frameborder="0" allowfullscreen>
+      </iframe>
+    description: >
+      Gerir versões e código-fonte software pode ser um trabalho árduo quando não se usa ferramentas para isso, no entanto, a dobradinha git e github trazem essa facilidade para o desenvolvedor. 
+      Nesse minicurso você conhecerá tudo necessário para dar os primeiros passos no uso dessas ferramentas indispensáveis ao desenvolvedor moderno.
+
   - title: Iniciando com Materialize CSS Framework
     sub_title: Dê os primeiros passos rumo ao front-end responsivo e ao Material Design
     logo_file: materialize-cover.png
