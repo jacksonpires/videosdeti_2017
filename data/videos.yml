@@ -1,4 +1,18 @@
 courses:
+  - title: Docker para desenvolvedores Javascript / Node.JS
+    sub_title: Use Docker no seu ambiente de desenvolvimento e produção com aplicações Javascript / Node.JS
+    logo_file: docker-js-cover.png
+    price: Com certificado
+    category: DevOps
+    level: iniciante/intermediário
+    html_page: curso-docker-nodejs.html
+    html_course: http://bit.ly/docker-nodejs-34
+    teacher: Jackson Pires
+    video_embedded: not
+    description: >
+      O curso visa mostrar aos alunos como dar os primeiros passos com o Docker para seu uso tanto em ambiente de desenvolvimento como em produção. Serão abordados assuntos como: Conceitos iniciais do Docker, Dockerfile, Docker Hub, Docker Compose, Volumes, Networks, Portas, etc.
+      É importante perceber que o curso NÃO abordará "Orquestração de Containers", sendo assim, ferramentas como Swarm e Kubernetes não farão parte do escopo desse curso.
+
   - title: Git e Github - Primeiros Passos
     sub_title: Dê os primeiros passos no entendimento do Git e Github
     logo_file: git-github-cover.png
