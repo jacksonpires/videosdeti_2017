@@ -45,6 +45,9 @@ data.promotions.banners_html.each do |banner|
   end
 end
 
+
+proxy "_redirects", "netlify-redirects", ignore: true
+
 ###
 # Helpers
 ###
