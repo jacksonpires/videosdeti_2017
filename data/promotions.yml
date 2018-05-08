@@ -1,4 +1,9 @@
 banners:
+  - title: One Bit Flix
+    cover_file: onebitflix.png
+    link: https://go.hotmart.com/W6395937I
+    active?: true
+    
   - title: Bootcamp Super Full Stack - Turma 4
     cover_file: bannerbootcamp172.png
     link: https://go.hotmart.com/W6395937I

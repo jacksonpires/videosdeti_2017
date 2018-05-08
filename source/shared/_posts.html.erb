@@ -3,9 +3,9 @@
     <div class="container">
       <div class="row" id="promotions">
         <% data.promotions.banners.each do |banner| %>
-          <%# if banner.active? %>
-            <%#= link_to image_tag("#{banner.cover_file}", class: "img-responsive", style: "width: 100%;"), "#{banner.link}" %>
-          <%# end %>
+          <% if banner.active? %>
+            <%= link_to image_tag("#{banner.cover_file}", class: "img-responsive", style: "width: 100%;"), "#{banner.link}" %>
+          <% end %>
         <% end %>
         
         <% data.promotions.banners_html.each do |banner| %>
