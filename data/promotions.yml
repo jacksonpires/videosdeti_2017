@@ -1,8 +1,13 @@
 banners:
+  - title: Bootcamp Turma 5
+    cover_file: banner-vti-bt5.png
+    link: http://bit.ly/bootcamp-sfs
+    active?: true  
+    
   - title: One Bit Flix
     cover_file: onebitflix.png
     link: https://go.hotmart.com/W6395937I
-    active?: true
+    active?: false
     
   - title: Bootcamp Super Full Stack - Turma 4
     cover_file: bannerbootcamp172.png
