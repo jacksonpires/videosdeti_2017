@@ -3,9 +3,9 @@
     <div class="container">
       <div class="row" id="promotions">
         <% data.promotions.banners.each do |banner| %>
-          <% if banner.active? %>
-            <%= link_to image_tag("#{banner.cover_file}", class: "img-responsive", style: "width: 100%;"), "#{banner.link}" %>
-          <% end %>
+          <%# if banner.active? %>
+            <%#= link_to image_tag("#{banner.cover_file}", class: "img-responsive", style: "width: 100%;"), "#{banner.link}" %>
+          <%# end %>
         <% end %>
         
         <% data.promotions.banners_html.each do |banner| %>
@@ -22,8 +22,8 @@
           <div class="col-sm-6">
             <article class="post type-post">
 
-              <div class="entry-thumbnail">
-                <%= image_tag "#{course.logo_file}" %>
+              <div class="entry-thumbnail" style="height: 290px; width: 100%;">
+                <%= image_tag "#{course.logo_file}", style:"max-width: 112%;" %>
                 <% link_to "#{course.html_page}", class: 'iframe' do %>
                   <span class="play-video">
                     <i class="fa fa-play-circle-o"></i>
