@@ -221,6 +221,8 @@ article:hover .play-video {
 .entry-thumbnail {
   overflow: hidden;
   position: relative;
+  height: 290px; 
+  width: 100%;
 }
 .entry-thumbnail .play-video {
   color: #fff;
@@ -236,7 +238,7 @@ article:hover .play-video {
 .entry-thumbnail img {
   height: 100%;
   width: 115%!important;
-  max-width: none;
+  max-width: 112%;
   margin-top: 0!important;
   margin-left: -15%;
   padding-left: 15%;
