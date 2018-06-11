@@ -218,6 +218,13 @@ button:focus {
 article:hover .play-video {
   opacity: 1;
 }
+
+.entry-thumbnail-large {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
 .entry-thumbnail {
   overflow: hidden;
   position: relative;
@@ -234,6 +241,15 @@ article:hover .play-video {
   -ms-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
   transition: all 0.25s ease;
+}
+
+.entry-thumbnail-large img {
+  height: 100%;
+  width: 115%!important;
+  max-width: 112%;
+  margin-top: 0!important;
+  margin-left: -15%;
+  padding-left: 15%;
 }
 .entry-thumbnail img {
   height: 100%;
@@ -678,6 +694,23 @@ article:hover .play-video {
   position: relative;
 }
 .banner-section .banner-slider-03 article .entry-thumbnail .iframe {
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  color: #d50000;
+  font-size: 50px;
+  height: 150px;
+  width: 150px;
+  line-height: 153px;
+  left: 50%;
+  top: 50%;
+  margin-top: -75px;
+  margin-left: -75px;
+  position: absolute;
+  text-align: center;
+}
+
+.banner-section .banner-slider-03 article .entry-thumbnail-large .iframe {
   background: #fff;
   border-radius: 50%;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
@@ -2090,6 +2123,23 @@ article:hover .play-video {
   height: 75px;
   width: 75px;
   line-height: 78px;
+  left: 48%;
+  top: 35%;
+  margin-top: -37.5px;
+  margin-left: -37.5px;
+  position: absolute;
+  text-align: center;
+}
+
+.blog-posts .col-sm-12 article .entry-thumbnail-large .iframe {
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  color: #d50000;
+  font-size: 25px;
+  height: 75px;
+  width: 75px;
+  line-height: 78px;
   left: 50%;
   top: 50%;
   margin-top: -37.5px;
@@ -2097,6 +2147,7 @@ article:hover .play-video {
   position: absolute;
   text-align: center;
 }
+
 .blog-posts .col-sm-12 article .entry-content .entry-title a {
   color: #455a64;
   font-weight: bold;
@@ -2133,6 +2184,23 @@ article:hover .play-video {
   right: 7%;
 }
 .blog-posts .col-sm-8 article .entry-thumbnail .iframe {
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  color: #d50000;
+  font-size: 25px;
+  height: 75px;
+  width: 75px;
+  line-height: 78px;
+  left: 50%;
+  top: 50%;
+  margin-top: -37.5px;
+  margin-left: -37.5px;
+  position: absolute;
+  text-align: center;
+}
+
+.blog-posts .col-sm-8 article .entry-thumbnail-large .iframe {
   background: #fff;
   border-radius: 50%;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
@@ -2490,6 +2558,15 @@ article:hover .play-video {
   max-width: none !important;
 }
 .blog-posts.video-post .related-videos-slider article .entry-thumbnail .iframe {
+  background: none;
+  box-shadow: none;
+  height: inherit;
+  width: inherit;
+  line-height: 1;
+  margin: 0 !important;
+  position: initial;
+}
+.blog-posts.video-post .related-videos-slider article .entry-thumbnail-large .iframe {
   background: none;
   box-shadow: none;
   height: inherit;
