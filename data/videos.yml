@@ -103,7 +103,7 @@ courses:
     sub_title: Aprenda de vez Orientação a Objetos com Ruby!
     logo_file: poo-ruby-cover.png
     price: Com certificado
-    category: Ruby
+    category: Ruby, Ruby on Rails
     level: iniciantes
     html_page: curso-poo-ruby.html
     html_course: http://bit.ly/poo-ruby
@@ -116,7 +116,7 @@ courses:
     sub_title: Aprenda a criar uma aplicação completa com Ruby on Rails API-only
     logo_file: ror-api-cover.png
     price: Com certificado
-    category: Ruby on Rails
+    category: Ruby on Rails, RESTful
     level: intermediário/avançado
     html_page: curso-ror-api.html
     html_course: http://bit.ly/curso-ror-api
@@ -129,7 +129,7 @@ courses:
     sub_title: Entenda de uma vez por todas RESTful  APIs
     logo_file: restful-cover.png
     price: Com certificado
-    category: RESTful APIs
+    category: RESTful
     level: todos os níveis
     html_page: restful-apis.html
     html_course: http://bit.ly/restful-apis
