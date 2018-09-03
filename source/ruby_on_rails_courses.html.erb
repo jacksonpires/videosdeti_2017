@@ -1,0 +1,52 @@
+<section class="latest-posts two-column">
+  <div class="section-padding">
+    <div class="container">
+      <div class="row">
+        <h2 class="section-title">Cursos Ruby & Ruby on Rails</h2><!-- /.section-title -->
+
+        <% data.videos.courses.each do |course| %>
+          <% if (course.category == 'Ruby' || course.category == 'Ruby on Rails')%>
+              <div class="col-sm-6">
+                <article class="post type-post">
+    
+                  <div class="entry-thumbnail">
+                    <%= image_tag "#{course.logo_file}" %>
+                    <% link_to "#{course.html_page}", class: 'iframe' do %>
+                      <span class="play-video">
+                        <i class="fa fa-play-circle-o"></i>
+                      </span>
+                    <% end %>
+                  </div><!-- /.entry-thumbnail -->
+    
+                  <div class="entry-content">
+                    <h2 class="entry-title">
+                      <%= link_to "#{course.title}", "#{course.html_page}" %>
+                    </h2><!-- /.entry-title -->
+                    <div class="entry-meta">
+                      <span class="author">
+                        <%= course.sub_title %>
+                      </span><!-- /.author -->
+                      <span>
+                        <i class="fa fa-usd"></i> <%= course.price %>
+                      </span>
+                      <span>
+                        <i class="fa fa-code"></i> <%= course.category %>
+                      </span>
+                      <span>
+                        <i class="fa fa-bar-chart"></i> <%= course.level %>
+                      </span>
+                      <span>
+                        <i class="fa fa-user"></i> <%= course.teacher %>
+                      </span>
+                    </div><!-- /.entry-meta -->
+                  </div><!-- /.entry-content -->
+    
+                </article><!-- /.post -->
+              </div>
+           <% end %>
+        <% end %>
+
+      </div>
+    </div><!-- /.container -->
+  </div><!-- /.section-padding -->
+</section><!-- /.video-content -->

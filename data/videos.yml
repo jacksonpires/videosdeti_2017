@@ -90,7 +90,7 @@ courses:
     sub_title: Desenvolva aplicações guiada a testes com Ruby on Rails
     logo_file: tdd-rails-cover.png
     price: Com certificado
-    category: Linguagem Ruby
+    category: Ruby on Rails
     level: intermediário/avançado
     html_page: curso-tdd-rails.html
     html_course: http://bit.ly/tdd-rails
@@ -103,7 +103,7 @@ courses:
     sub_title: Aprenda de vez Orientação a Objetos com Ruby!
     logo_file: poo-ruby-cover.png
     price: Com certificado
-    category: Linguagem Ruby
+    category: Ruby
     level: iniciantes
     html_page: curso-poo-ruby.html
     html_course: http://bit.ly/poo-ruby
@@ -116,7 +116,7 @@ courses:
     sub_title: Aprenda a criar uma aplicação completa com Ruby on Rails API-only
     logo_file: ror-api-cover.png
     price: Com certificado
-    category: Ruby on Rails API Only
+    category: Ruby on Rails
     level: intermediário/avançado
     html_page: curso-ror-api.html
     html_course: http://bit.ly/curso-ror-api
