@@ -5,7 +5,7 @@
         <h2 class="section-title">Cursos Ruby & Ruby on Rails</h2><!-- /.section-title -->
 
         <% data.videos.courses.each do |course| %>
-          <% if (course.category == 'Ruby on Rails')%>
+          <% if (course.category.split(', ').include('Ruby on Rails'))%>
               <div class="col-sm-6">
                 <article class="post type-post">
     
