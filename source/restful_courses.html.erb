@@ -2,13 +2,13 @@
   <div class="section-padding">
     <div class="container">
       <div class="row">
-        <h2 class="section-title">Cursos Ruby & Ruby on Rails</h2><!-- /.section-title -->
+        <h2 class="section-title">Cursos sobre RESTful</h2><!-- /.section-title -->
 
         <% data.videos.courses.each do |course| %>
-          <% if (course.category.split(', ').include('RESTful'))%>
+          <% if (course.category.split(', ').include?('RESTful')) %>
               <div class="col-sm-6">
                 <article class="post type-post">
-    
+
                   <div class="entry-thumbnail">
                     <%= image_tag "#{course.logo_file}" %>
                     <% link_to "#{course.html_page}", class: 'iframe' do %>
@@ -17,7 +17,7 @@
                       </span>
                     <% end %>
                   </div><!-- /.entry-thumbnail -->
-    
+
                   <div class="entry-content">
                     <h2 class="entry-title">
                       <%= link_to "#{course.title}", "#{course.html_page}" %>
@@ -40,7 +40,7 @@
                       </span>
                     </div><!-- /.entry-meta -->
                   </div><!-- /.entry-content -->
-    
+
                 </article><!-- /.post -->
               </div>
            <% end %>

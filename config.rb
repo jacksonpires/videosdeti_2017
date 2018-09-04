@@ -23,7 +23,7 @@
 # with_layout :admin do
 #   page "/admin/*"
 # end
-page '/newsletter.html', :layout => false
+page '/newsletter.html', layout: false
 
 # Proxy pages (https://middlemanapp.com/advanced/dynamic_pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
@@ -33,20 +33,19 @@ page '/newsletter.html', :layout => false
 
 data.videos.courses.each do |v|
   unless v.html_page.include?('bit')
-    proxy "/#{v.html_page}", "/template.html",
-    :locals => { :course => v }, :ignore => true
+    proxy "/#{v.html_page}", '/template.html',
+          locals: { course: v }, ignore: true
   end
 end
 
 data.promotions.banners_html.each do |banner|
   if banner.active?
-    proxy "/#{banner.html_page}", "/template_banner.html",
-   :locals => { :banner => banner }, :ignore => true
+    proxy "/#{banner.html_page}", '/template_banner.html',
+          locals: { banner: banner }, ignore: true
   end
 end
 
-
-proxy "_redirects", "netlify-redirects", ignore: true
+proxy '_redirects', 'netlify-redirects', ignore: true
 
 ###
 # Helpers
@@ -60,11 +59,11 @@ proxy "_redirects", "netlify-redirects", ignore: true
 # Methods defined in the helpers block are available in templates
 helpers do
   def page_active(page)
-    "active" if current_page.url == page
+    'active' if current_page.url == page
   end
 
   def course_page_active
-    "active" unless ['/', '/newsletter.html'].include? current_page.url
+    'active' unless ['/', '/newsletter.html'].include? current_page.url
   end
 end
 
