@@ -1,8 +1,13 @@
 banners:
+  - title: Spotcode
+    cover_file: banner-spotcode.png
+    link: https://go.hotmart.com/W6395937I
+    active?: true  
+    
   - title: Webinário Lucas
     cover_file: banner-lucas-caton.jpg
     link: https://webinarios.lucascaton.com.br/10-licoes-para-ser-um-excelente-desenvolvedor
-    active?: true  
+    active?: false  
 
   - title: Bootcamp Turma 5
     cover_file: banner-vti-bt5.png
