@@ -1,8 +1,13 @@
 banners:
+  - title: Novo curso Lucas Caton
+    cover_file: banner-lucas-caton-1.jpeg
+    link: https://go.hotmart.com/U9738495E
+    active?: true  
+    
   - title: Spotcode
     cover_file: banner-spotcode.png
     link: https://go.hotmart.com/W6395937I
-    active?: true  
+    active?: false  
     
   - title: Webinário Lucas
     cover_file: banner-lucas-caton.jpg
