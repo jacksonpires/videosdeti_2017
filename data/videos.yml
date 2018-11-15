@@ -1,4 +1,17 @@
 courses:
+  - title: Progamação Funcional com Elixir
+    sub_title: Aprenda programação funcional de uma vez por todas!
+    logo_file: pf-elixir-cover.png
+    price: Com certificado
+    category: Elixir
+    level: todos os níveis
+    html_page: pf-elixir.html
+    html_course: https://www.udemy.com/programacao-funcional-com-elixir/?couponCode=VIDEOSDETI
+    teacher: Jackson Pires
+    video_embedded: not
+    description: >
+      Esse curso visa mostrar aos alunos o que é a programação funcional e como ela funciona. Para isso usaremos a linguagem de programação Elixir que por sua vez é de fácil entendimento permitindo assim que o aprendizado sobre programação funcional seja ainda mais simples. O curso está dividido em 2 módulos no intuito de facilitar ainda mais o entendimento do assunto.
+
   - title: Ruby on Rails 5.x - Do início ao fim!
     sub_title: Entenda todo ecossistema do Ruby on Rails 5.x criando uma aplicação do início ao fim!
     logo_file: rails5x-cover.png
