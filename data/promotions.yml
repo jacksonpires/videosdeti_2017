@@ -1,4 +1,9 @@
 banners:
+  - title: Black Friday 2018
+    cover_file: blackfriday-2018.png
+    link: '#'
+    active?: true  
+    
   - title: Novo curso Lucas Caton
     cover_file: banner-lucas-caton-1.jpeg
     link: https://go.hotmart.com/U9738495E
@@ -7,7 +12,7 @@ banners:
   - title: Spotcode
     cover_file: banner-spotcode.png
     link: https://www.videosdeti.com.br/super-fullstack
-    active?: true  
+    active?: false  
     
   - title: Webinário Lucas
     cover_file: banner-lucas-caton.jpg
