@@ -1,8 +1,13 @@
 banners:
+  - title: Bootcamp
+    cover_file: banner-vti-bt6.png
+    link: https://www.videosdeti.com.br/super-fullstack
+    active?: true  
+    
   - title: Black Friday 2018
     cover_file: blackfriday-2018.png
     link: '#'
-    active?: true  
+    active?: false  
     
   - title: Novo curso Lucas Caton
     cover_file: banner-lucas-caton-1.jpeg

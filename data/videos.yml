@@ -6,7 +6,7 @@ courses:
     category: Elixir
     level: todos os níveis
     html_page: pf-elixir.html
-    html_course: https://www.udemy.com/programacao-funcional-com-elixir/?couponCode=BLACKFRIDAY-18
+    html_course: https://www.udemy.com/programacao-funcional-com-elixir/?couponCode=VIDEOSDETI-FIXO
     teacher: Jackson Pires
     video_embedded: not
     description: >
@@ -19,7 +19,7 @@ courses:
     category: Ruby on Rails
     level: todos os níveis
     html_page: rubyonrails-5x.html
-    html_course: https://www.udemy.com/rubyonrails-5x/?couponCode=BLACK-FRIDAY-18
+    html_course: http://bit.ly/rubyonrails-5x
     teacher: Jackson Pires
     video_embedded: not
     description: >
@@ -34,7 +34,7 @@ courses:
     category: DevOps
     level: iniciante/intermediário
     html_page: curso-docker-nodejs.html
-    html_course: https://www.udemy.com/docker-nodejs/?couponCode=BLACK-FRIDAY-18
+    html_course: http://bit.ly/docker-nodejs-34
     teacher: Jackson Pires
     video_embedded: not
     description: >
@@ -64,7 +64,7 @@ courses:
     category: Front-end
     level: iniciante/intermediário
     html_page: iniciando-com-materialize.html
-    html_course: https://www.udemy.com/iniciando-com-materialize/?couponCode=BLACK-FRIDAY-18
+    html_course: https://www.udemy.com/iniciando-com-materialize/?couponCode=VIDEOSDETI
     teacher: Tássio Gonçalves
     video_embedded: not
     description: >
@@ -78,7 +78,7 @@ courses:
     category: Front-end
     level: iniciante/intermediário
     html_page: sass-curso-completo.html
-    html_course: https://www.udemy.com/sass-curso-completo/?couponCode=BLACK-FRIDAY-18
+    html_course: https://www.udemy.com/sass-curso-completo/?couponCode=VIDEOSDETI
     teacher: Tássio Gonçalves
     video_embedded: not
     description: >
@@ -92,7 +92,7 @@ courses:
     category: DevOps
     level: iniciante/intermediário
     html_page: curso-docker-rails.html
-    html_course: https://www.udemy.com/docker-rails/?couponCode=BLACK-FRIDAY-18
+    html_course: http://bit.ly/docker-ror-35
     teacher: Jackson Pires
     video_embedded: not
     description: >
@@ -106,7 +106,7 @@ courses:
     category: Ruby on Rails
     level: intermediário/avançado
     html_page: curso-tdd-rails.html
-    html_course: https://www.udemy.com/rails-tdd/?couponCode=BLACK-FRIDAY-18
+    html_course: http://bit.ly/tdd-rails
     teacher: Jackson Pires
     video_embedded: not
     description: >
@@ -119,7 +119,7 @@ courses:
     category: Ruby, Ruby on Rails
     level: iniciantes
     html_page: curso-poo-ruby.html
-    html_course: https://www.udemy.com/poo-ruby/?couponCode=BLACK-FRIDAY-18
+    html_course: http://bit.ly/poo-ruby
     teacher: Jackson Pires
     video_embedded: not
     description: >
@@ -132,7 +132,7 @@ courses:
     category: Ruby on Rails, RESTful
     level: intermediário/avançado
     html_page: curso-ror-api.html
-    html_course: https://www.udemy.com/rubyonrails-api/?couponCode=BLACK-FRIDAY-18
+    html_course: http://bit.ly/curso-ror-api
     teacher: Jackson Pires
     video_embedded: not
     description: >
@@ -145,7 +145,7 @@ courses:
     category: RESTful
     level: todos os níveis
     html_page: restful-apis.html
-    html_course: https://www.udemy.com/restful-apis/?couponCode=BLACK-FRIDAY-18
+    html_course: http://bit.ly/restful-apis
     teacher: Jackson Pires
     video_embedded: not
     description: >
@@ -158,7 +158,7 @@ courses:
     category: Java
     level: iniciantes
     html_page: poo-java.html
-    html_course: https://www.udemy.com/poo-java/?couponCode=BLACK-FRIDAY-18
+    html_course: https://bit.ly/poo-java
     teacher: Jackson Pires
     video_embedded: not
     description: >
@@ -171,7 +171,7 @@ courses:
     category: Ruby on Rails
     level: todos os níveis
     html_page: curso-ror.html
-    html_course: https://www.udemy.com/rubyonrails/?couponCode=BLACK-FRIDAY-18
+    html_course: https://bit.ly/ror-curso
     teacher: Jackson Pires
     video_embedded: not
     description: >
@@ -229,7 +229,7 @@ courses:
     category: Banco de dados e SQL
     level: iniciantes
     html_page: bd-ansisql.html
-    html_course: https://www.udemy.com/bd-ansisql/?couponCode=BLACK-FRIDAY-18
+    html_course: http://bit.ly/bd-ansisql
     teacher: Jackson Pires
     video_embedded: not
     description: >
@@ -242,7 +242,7 @@ courses:
     category: Fluxograma, Portugol, Linguagem C
     level: iniciante
     html_page: curso-programacao-do-zero.html
-    html_course: https://www.udemy.com/programacao-do-zero/?couponCode=BLACK-FRIDAY-18
+    html_course: http://bit.ly/programacao-do-zero-30
     teacher: Jackson Pires
     video_embedded: not
     description: >
