@@ -71,7 +71,7 @@ courses:
       MaterializeCSS é um framework CSS que traz o conceito do material design adotado pelo Google de uma forma muito simples e minimalista.
       Neste curso conheceremos o Framework Materialize CSS para desenvolvimento web front-end, baseada no Material Design do Google facilita a construção de aplicações web responsivas e com visual elegante.
 
-  - title: Curso Completo de Sass/SCSS: Do Iniciante ao Avançado
+  - title: "Curso Completo de Sass/SCSS: Do Iniciante ao Avançado"
     sub_title: Chega de CSS desorganizado! Elabore projetos organizados, rápidos e sem frustrações utilizando Sass
     logo_file: sass-cover.png
     price: Com certificado
