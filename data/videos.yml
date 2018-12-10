@@ -57,7 +57,7 @@ courses:
       Gerir versões e código-fonte de software pode ser um trabalho árduo quando não se usa ferramentas para isso, no entanto, a dobradinha git e github trazem essa facilidade para o desenvolvedor. 
       Nesse minicurso você conhecerá tudo necessário para dar os primeiros passos no uso dessas ferramentas indispensáveis ao desenvolvedor moderno.
 
-  - title: Iniciando com Materialize CSS Framework
+  - title: Google Material Design com Materialize CSS Framework
     sub_title: Dê os primeiros passos rumo ao front-end responsivo e ao Material Design
     logo_file: materialize-cover.png
     price: Com certificado
@@ -71,7 +71,7 @@ courses:
       MaterializeCSS é um framework CSS que traz o conceito do material design adotado pelo Google de uma forma muito simples e minimalista.
       Neste curso conheceremos o Framework Materialize CSS para desenvolvimento web front-end, baseada no Material Design do Google facilita a construção de aplicações web responsivas e com visual elegante.
 
-  - title: "Sass/SCSS: Curso Completo"
+  - title: Curso Completo de Sass/SCSS: Do Iniciante ao Avançado
     sub_title: Chega de CSS desorganizado! Elabore projetos organizados, rápidos e sem frustrações utilizando Sass
     logo_file: sass-cover.png
     price: Com certificado
