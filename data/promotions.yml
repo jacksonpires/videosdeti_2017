@@ -2,7 +2,7 @@ banners:
   - title: Bootcamp
     cover_file: banner-vti-bt6-new.png
     link: https://www.videosdeti.com.br/super-fullstack
-    active?: true  
+    active?: false  
     
   - title: Black Friday 2018
     cover_file: blackfriday-2018.png
